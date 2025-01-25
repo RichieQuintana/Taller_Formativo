@@ -1,6 +1,6 @@
 ﻿using DesignPatterns.Models;
 
-namespace DesignPatterns.Factories
+namespace DesignPatterns.Infraestructure.Factories
 {
     public abstract class CarFactory
     {

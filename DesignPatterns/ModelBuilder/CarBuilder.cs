@@ -3,31 +3,31 @@ using System;
 
 namespace DesignPatterns.ModelBuilder
 {
-	public class CarModelBuilder
+	public class CarBuilder
 	{
 		private string color = "red";
 		private string brand = "Ford";
 		private string model = "Mustang";
 		private int year = DateTime.Now.Year;
 
-		public CarModelBuilder setColor(string color)
+		public CarBuilder setColor(string color)
 		{
 			this.color = color;
 			return this;
 		}
-		public CarModelBuilder setBrand(string brand)
+		public CarBuilder setBrand(string brand)
 		{
 			this.brand = brand;
 			return this;
 		}
 
-		public CarModelBuilder setModel(string model)
+		public CarBuilder setModel(string model)
         {
             this.model = model;
             return this;
         }
 		
-		public CarModelBuilder setYear(int year)
+		public CarBuilder setYear(int year)
         {
             this.year = year;
             return this;

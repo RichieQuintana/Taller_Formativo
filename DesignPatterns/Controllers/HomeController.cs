@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Factories;
+using DesignPatterns.Infraestructure.Factories;
 using DesignPatterns.Models;
 using DesignPatterns.Repositories;
 using Microsoft.AspNetCore.Mvc;

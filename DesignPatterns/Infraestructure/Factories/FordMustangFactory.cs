@@ -1,13 +1,13 @@
 ﻿using DesignPatterns.ModelBuilder;
 using DesignPatterns.Models;
 
-namespace DesignPatterns.Factories
+namespace DesignPatterns.Infraestructure.Factories
 {
     public class FordMustangFactory : CarFactory
     {
         public override Vehicle Create()
         {
-            return new CarModelBuilder()
+            return new CarBuilder()
                 .setModel("Mustang")
                 .setColor("Red")
                 .Build();
