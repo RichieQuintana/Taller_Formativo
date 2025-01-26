@@ -2,13 +2,15 @@
 Este proyecto implementa patrones de diseño Singleton y Builder para la gestión eficiente de vehículos, garantizando instancias únicas y la construcción flexible de objetos complejos.
 
 Estructura
-Copy
-Edit
 Taller_Formativo/
 ├── Singleton/
-│   └── SingletonVehicle.cs
+|
+│
+|└── SingletonVehicle.cs
 ├── Builder/
+|
 │   └── VehicleBuilder.cs
+|
 ├── DesignPatterns.sln
 
 
