@@ -6,10 +6,15 @@ Copy
 Edit
 Taller_Formativo/
 ├── Singleton/
+
 │   └── SingletonVehicle.cs
+
 ├── Builder/
+
 │   └── VehicleBuilder.cs
+
 ├── DesignPatterns.sln
+
 
 **Singleton**: Gestiona instancias únicas de vehículos.
 **Builder**: Permite construir vehículos con múltiples configuraciones.
