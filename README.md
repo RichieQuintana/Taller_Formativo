@@ -3,15 +3,10 @@ Este proyecto implementa patrones de diseño Singleton y Builder para la gestió
 
 Estructura
 Taller_Formativo/
-
 ├── Singleton/
-
 |      └── SingletonVehicle.cs
-
 ├── Builder/
-
 |     └── VehicleBuilder.cs
-
 ├── DesignPatterns.sln
 
 
